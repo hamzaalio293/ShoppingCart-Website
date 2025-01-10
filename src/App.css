@@ -1,0 +1,14 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the navbar is above other content */
+  background-color: white; /* Adjust as needed */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for better visibility */
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  margin-top: 60px; /* Adjust this value to the height of your navbar */
+}
